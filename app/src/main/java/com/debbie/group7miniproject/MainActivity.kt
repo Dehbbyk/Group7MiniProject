@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         val signUp: Button = findViewById(R.id.button)
         signUp.setOnClickListener{
             var intent = Intent(this, signUp::class.java)
+            
             startActivity(intent)
 
         }
