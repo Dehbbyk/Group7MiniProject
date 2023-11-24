@@ -12,11 +12,16 @@ class MainActivity : AppCompatActivity() {
 
         val signUp: Button = findViewById(R.id.button)
         signUp.setOnClickListener{
-            var intent = Intent(this, signUp::class.java)
+            val intent = Intent(this, signUp::class.java)
             
             startActivity(intent)
 
         }
+        val Reg: Button = findViewById(R.id. button_1)
+        Reg.setOnClickListener{
+            val i = Intent(this, Reg::class.java)
 
+            startActivity(intent)
+        }
     }
 }
