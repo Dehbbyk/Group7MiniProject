@@ -32,20 +32,24 @@
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_marginTop="40dp"
+        android:textSize="16sp"
         android:background="@drawable/group"
         android:inputType="textEmailAddress"
-        android:text="Email, Phone Or Username"
+        android:paddingHorizontal="5dp"
+        android:hint="Email, Phone Or Username"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txt_0" />
 
     <EditText
         android:id="@+id/txt_3"
-        android:layout_width="371dp"
+        android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_marginTop="20dp"
+        android:paddingHorizontal="5dp"
+        android:textSize="16sp"
         android:background="@drawable/group"
-        android:text="Password"
+        android:hint="Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txt_2" />
@@ -54,7 +58,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Forgot Password ?"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         android:layout_marginTop="15dp"
         app:layout_constraintTop_toBottomOf="@id/txt_3"
@@ -67,6 +71,8 @@
         android:text="Sign in"
         app:cornerRadius="4dp"
         android:layout_marginTop="20dp"
+        android:paddingVertical="5dp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ForgotPassword"/>
@@ -139,6 +145,7 @@
         android:text="Don't have an account?  "
         android:textColor="@color/black"/>
     <TextView
+        android:id="@+id/register_now"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Register Now"

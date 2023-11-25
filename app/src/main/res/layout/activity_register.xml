@@ -32,10 +32,12 @@
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="5dp"
+        android:textSize="16sp"
         android:background="@drawable/group"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/intro" />
@@ -44,9 +46,11 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
+        android:paddingHorizontal="5dp"
+        android:textSize="16sp"
         android:background="@drawable/group"
         android:inputType="textPersonName"
-        android:text="Business Name"
+        android:hint="Business Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/name"/>
@@ -55,9 +59,11 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
+        android:paddingHorizontal="5dp"
+        android:textSize="16sp"
         android:background="@drawable/group"
         android:inputType="text|number"
-        android:text="Phone"
+        android:hint="Phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/bName"/>
@@ -66,9 +72,11 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
+        android:paddingHorizontal="5dp"
+        android:textSize="16sp"
         android:background="@drawable/group"
         android:inputType="textEmailAddress"
-        android:text="Email"
+        android:hint="Email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/phone"/>
@@ -77,9 +85,11 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
+        android:paddingHorizontal="5dp"
+        android:textSize="16sp"
         android:background="@drawable/group"
         android:inputType="text"
-        android:text="Password"
+        android:hint="Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/email"/>
@@ -89,6 +99,8 @@
         android:layout_height="wrap_content"
         android:text="Sign Up"
         app:cornerRadius="4dp"
+        android:paddingVertical="5dp"
+        android:textSize="18sp"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -110,9 +122,11 @@
             android:text="Already have an account?  "
             android:textColor="@color/black"/>
         <TextView
+            android:id="@+id/loginIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Login"
+            android:textStyle="bold"
             android:textColor="#0971F1"/>
     </LinearLayout>
 
